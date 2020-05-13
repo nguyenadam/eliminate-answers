@@ -4,8 +4,6 @@
 
 .disabled-option {
     border-radius: 5px;
-    padding-left: 10px;
-    margin-left: -10px;
     opacity: 0.5;
     pointer-events: none;
 }
@@ -22,7 +20,7 @@
 .x-button {
     position: absolute;
     right: 6px;
-    /*display: none;*/
+    display: none;
     background-color: rgba(10, 10, 10, .4);
     color: white;
     border: none;
