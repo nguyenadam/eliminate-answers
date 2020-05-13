@@ -7,7 +7,7 @@
     padding-left: 10px;
     margin-left: -10px;
     opacity: 0.5;
-
+    pointer-events: none;
 }
 
 .disabled-option > label {
@@ -34,6 +34,7 @@
     margin: .5rem;
     font-size: .6rem;
     outline: none;
+    pointer-events: auto;
 }
 
 .x-button:hover {
@@ -48,4 +49,3 @@
 .freebirdFormviewerViewItemsRadioOptionContainer {
     display: flex;
 }
-

@@ -43,13 +43,13 @@ chrome.extension.sendMessage({}, function (response) {
                         var parent = $(this).closest(".freebirdFormviewerViewItemsRadioOptionContainer")
 
                         if (parent.attr("data-disabled") == "true") {
-                            parent.unbind('click');
+                            // parent.unbind('click');
                             parent.removeClass("disabled-option")
                             parent.attr("data-disabled", "false")
                         } else {
-                            parent.bind('click', function () {
-                                return false;
-                            });
+                            // parent.bind('click', function () {
+                            //     return false;
+                            // });
 
                             parent.addClass("disabled-option")
                             parent.attr("data-disabled", "true")

@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Google Forms Quality of Life Improvements",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "This Lightbulb Education extension is designed to add various quality of life improvements to Google Forms, including an option to eliminate answer choices (handy for students taking tests).",
+  "homepage_url": "https://lightbulb.education",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
