@@ -8,6 +8,10 @@
     pointer-events: none;
 }
 
+.disabled-option .freebirdThemedRadio{
+    pointer-events: none;
+}
+
 .disabled-option > label {
     text-decoration: line-through;
 }
@@ -40,18 +44,28 @@
 
 }
 
-.freebirdFormviewerViewItemsRadioOptionContainer:hover > .x-button {
+.freebirdFormviewerViewItemsRadioOptionContainer:hover .x-button {
     display: block
 }
 
+<<<<<<< HEAD
 .freebirdFormviewerViewItemsCheckboxContainer:hover > .x-button {
     display: block
 }
+=======
+>>>>>>> upstream/master
 
 .freebirdFormviewerViewItemsRadioOptionContainer {
     display: flex;
 }
 
+<<<<<<< HEAD
+=======
+
+.freebirdFormviewerViewItemsCheckboxChoice:hover .x-button {
+    display: block
+}
+>>>>>>> upstream/master
 .freebirdFormviewerViewItemsCheckboxContainer {
     display: flex;
 }
