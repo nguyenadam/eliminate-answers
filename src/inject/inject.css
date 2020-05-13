@@ -46,6 +46,14 @@
     display: block
 }
 
+.freebirdFormviewerViewItemsCheckboxContainer:hover > .x-button {
+    display: block
+}
+
 .freebirdFormviewerViewItemsRadioOptionContainer {
+    display: flex;
+}
+
+.freebirdFormviewerViewItemsCheckboxContainer {
     display: flex;
 }
